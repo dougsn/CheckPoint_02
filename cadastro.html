@@ -28,72 +28,163 @@
 
     <main>
       <form>
+        <legend>Cadastro de Interesses</legend>
         <div>
-          <label for="name">Nome</label>
-          <input type="text" name="name" id="name" maxlength="100" />
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            maxlength="100"
+            placeholder="Digite seu nome"
+          />
         </div>
         <div>
-          <label for="mail">Email</label>
-          <input type="email" name="mail" id="mail" />
+          <label for="mail">Email:</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Digite seu email"
+          />
         </div>
         <div>
-          <label for="phone">Telefone</label>
-          <input type="number" name="phone" id="phone" />
+          <label for="phone">Telefone:</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="Digite seu telefone"
+          />
         </div>
-        <div>
-          <label for="dateBirthday">Data de Nascimento</label>
+        <div class="content-date">
+          <label for="dateBirthday">Data de Nascimento:</label>
           <input type="date" name="dateBirthday" id="dateBirthday" />
         </div>
-        <div class="idade">
-          <div>
+        <div class="content-radio">
+          <div class="radio">
             <input type="radio" name="idade" id="maiorIdade" />
             <label for="maiorIdade">+18</label>
           </div>
-          <div>
+          <div class="radio">
             <input type="radio" name="idade" id="menorIdade" />
             <label for="menorIdade">-18</label>
-            
           </div>
         </div>
-        <div>
-          <label for="">Pontos Turisticos</label>
+        <div class="name">
+          <label for="">Pontos Turisticos:</label>
           <select name="" id="">
             <option value="">Praia da luz</option>
             <option value="">Batalhão florestal</option>
             <option value="">Porto da Pedra</option>
           </select>
-
         </div>
 
-        <div class="idade">
-          <div>
+        <div class="content-checkbox">
+          <div class="radio">
             <input type="checkbox" name="turista" id="turista" />
             <label for="turista">Turista</label>
           </div>
-          <div>
+          <div class="radio">
             <input type="checkbox" name="residente" id="residente" />
             <label for="residente">Residente</label>
-            
           </div>
-          <div>
+          <div class="radio">
             <input type="checkbox" name="estudante" id="estudante" />
             <label for="estudante">Estudante</label>
-            
           </div>
         </div>
 
-      <div>
-
-        <button type="submit">Cadastrar</button>
-        <button type="reset">Limpar</button>
-       
-      </div>
-
-
-
-
-
+        <div class="content-button">
+          <button class="enviar" type="submit">
+            <a target="_blank" href="index.html">Cadastrar</a>
+          </button>
+          <button class="limpar" type="reset">Limpar</button>
+        </div>
       </form>
+
+      <section class="content">
+        <section class="turisticos">
+          <div>
+            <img src="./assets/images/batalhao2.jpg" alt="" />
+            <img src="./assets/images/porto_da_pedra.jpg" alt="" />
+            <img src="./assets/images/praia-das-pedrinhas.jpg" alt="" />
+          </div>
+        </section>
+        <section class="fotos">
+          <div class="content-fotos">
+            <div class="content-img">
+              <img
+                class="icons-pessoal"
+                src="./assets/images/icons8-baby-yoda-black.svg"
+              />
+              
+                <a target="_blank" href="https://www.linkedin.com/in/rodrigo-escobar-63104655/
+                ">
+                  <img
+                    class="span-img"
+                    src="./assets/images/icons8-linkedin.svg"
+                    alt=""
+                  />
+                </a>
+                <a target="_blank" href="https://github.com/EscobarRodrigo
+                ">
+                <img
+                  class="span-img"
+                  src="./assets/images/icons8-github.svg"
+                  alt=""
+              />
+            </a></span>
+            </div>
+
+            <div class="content-img">
+              <img
+                class="icons-pessoal"
+                src="./assets/images/hacker_anonymous_icon_154428.svg"
+              />
+              
+                <a target="_blank" href="https://www.linkedin.com/in/douglas-silva-nascimento/">
+                  <img
+                    class="span-img"
+                    src="./assets/images/icons8-linkedin.svg"
+                    alt=""
+                  />
+                </a>
+                <a target="_blank" href="https://github.com/dougsn">
+                <img
+                  class="span-img"
+                  src="./assets/images/icons8-github.svg"
+                  alt=""
+              />
+            </a></span>
+            </div>
+            <div class="content-img">
+              <img
+                class="icons-pessoal"
+                src="./assets/images/icons8-darth-vader.svg"
+              />
+              
+                <a target="_blank" href="https://www.linkedin.com/in/mateus-praxedes-06194019b/
+                ">
+                  <img
+                    class="span-img"
+                    src="./assets/images/icons8-linkedin.svg"
+                    alt=""
+                  />
+                </a>
+                <a target="_blank" href="https://github.com/MateusPraxedes
+                ">
+                <img
+                  class="span-img"
+                  src="./assets/images/icons8-github.svg"
+                  alt=""
+              />
+            </a></span>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
+    <footer></footer>
   </body>
 </html>

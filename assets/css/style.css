@@ -6,6 +6,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
+  outline: none;
+  border: none;
 }
 
 html {
@@ -174,11 +176,3 @@ nav ul li a:hover::after {
 .contato .youtube:hover {
   color: red;
 }
-
-
-
-
-
-
-
-
