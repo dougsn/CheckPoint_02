@@ -2,3 +2,14 @@ body {
   background-image: url('/assets/images/batalhao.jpg') !important;
   background-position: bottom !important;
 }
+
+form {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.idade {
+  display: flex;
+  gap: 20px;
+}
