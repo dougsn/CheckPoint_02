@@ -26,6 +26,35 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <form>
+        <div>
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" maxlength="100" />
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="email" name="mail" id="mail" />
+        </div>
+        <div>
+          <label for="phone">Telefone</label>
+          <input type="number" name="phone" id="phone" />
+        </div>
+        <div>
+          <label for="dateBirthday">Data de Nascimento</label>
+          <input type="date" name="dateBirthday" id="dateBirthday" />
+        </div>
+        <div class="idade">
+          <div>
+            <input type="radio" name="idade" id="maiorIdade" />
+            <label for="maiorIdade">+18</label>
+          </div>
+          <div>
+            <input type="radio" name="idade" id="menorIdade" />
+            <label for="menorIdade">-18</label>
+          </div>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
