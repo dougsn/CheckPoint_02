@@ -21,7 +21,7 @@ a {
 body {
   height: 100%;
   width: 100%;
-  background-image: url('/assets/images/São-Gonçalo-RJ.jpg');
+  background-image: url('../images/São-Gonçalo-RJ.jpg');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
