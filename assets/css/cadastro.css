@@ -11,8 +11,9 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 form {
@@ -148,6 +149,7 @@ button:hover {
   flex-wrap: wrap;
   gap: 50px;
   margin: 0px 20px;
+  justify-content: center;
 }
 
 .fotos .content-fotos {
@@ -186,4 +188,12 @@ button:hover {
 
 .content-fotos a {
   padding-left: 45px;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1139px) {
+  .fotos .content-fotos {
+    gap: 50px;
+  }
 }
