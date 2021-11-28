@@ -181,8 +181,28 @@ nav ul li a:hover::after {
   color: red;
 }
 
+@media only screen and (max-width: 1300px) {
+  iframe {
+    width: 900px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  iframe {
+    width: 700px;
+    height: 500px;
+  }
+}
+
 @media only screen and (max-width: 739px) {
   nav ul {
     margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 500px;
+    height: 200px;
   }
 }
