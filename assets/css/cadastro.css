@@ -226,4 +226,24 @@ button:hover {
   .fotos .content-img {
     margin: 50px 0px;
   }
+  .turisticos div {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .turisticos img {
+    width: 300px;
+  }
+
+  form {
+    width: 300px;
+  }
+  .content-radio,
+  .radio,
+  .content-checkbox {
+    gap: 5px;
+    margin: 5px 0px;
+    justify-content: space-around;
+  }
 }

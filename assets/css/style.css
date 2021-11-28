@@ -32,6 +32,10 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 
+.logo-navbar {
+  width: 30px;
+}
+
 nav {
   position: fixed;
   top: 0;
